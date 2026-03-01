@@ -2,27 +2,27 @@ function App() {
   const apps = [
     {
       id: 1,
-      name: '智能助手',
+      name: '星空体育',
       description: '提升效率的智能工具，让工作和生活更轻松便捷',
-      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://pic1.imgdb.cn/item/69a40ac1ac80c84bfd15ae58.png',
       color: 'from-blue-500 to-cyan-500',
-      link: 'https://baidu.com'
+      link: 'ttps://www.8ahmna.vip:9003/register/?agent_code=55699651'
     },
     {
       id: 2,
-      name: '商务管理',
+      name: '开云体育',
       description: '专业的企业管理解决方案，助力业务增长',
-      image: 'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://pic1.imgdb.cn/item/699c51217aea005f38310225.jpg',
       color: 'from-orange-500 to-amber-500',
-      link: 'https://baidu.com'
+      link: 'https://www.vwqv2s.vip:9663/entry/register79049/?i_code=94491262'
     },
     {
       id: 3,
-      name: '健康生活',
+      name: '米兰体育',
       description: '关注健康，记录运动，养成良好的生活习惯',
-      image: 'https://images.pexels.com/photos/3768894/pexels-photo-3768894.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://pic1.imgdb.cn/item/699c510a7aea005f38310220.jpg',
       color: 'from-green-500 to-teal-500',
-      link: 'https://baidu.com'
+      link: 'https://www.pr9oj0.vip:9037/entry/register27248/?i_code=321944933'
     }
   ];
 
