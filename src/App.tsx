@@ -1,4 +1,10 @@
 function App() {
+  const handleCustomerService = () => {
+    if (typeof window !== 'undefined' && (window as any).Tawk_API) {
+      (window as any).Tawk_API.toggle();
+    }
+  };
+
   const apps = [
     {
       id: 1,
@@ -94,6 +100,27 @@ function App() {
           </p>
         </div>
       </footer>
+
+      {/* Custom Customer Service Button */}
+      <button
+        onClick={handleCustomerService}
+        className="fixed bottom-6 right-6 bg-[#03a84e] hover:bg-[#028a40] text-white px-6 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 font-semibold z-50"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+        </svg>
+        <span>在线客服</span>
+      </button>
     </div>
   );
 }
