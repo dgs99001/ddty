@@ -12,7 +12,7 @@ function App() {
       description:' ',
       image: 'https://pic1.imgdb.cn/item/69a40ac1ac80c84bfd15ae58.png',
       color: 'from-blue-500 to-cyan-500',
-      link: 'ttps://www.8ahmna.vip:9003/register/?agent_code=55699651'
+      link: 'https://www.8ahmna.vip:9003/register/?agent_code=55699651'
     },
     {
       id: 2,
